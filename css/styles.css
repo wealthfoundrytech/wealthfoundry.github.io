@@ -76,6 +76,19 @@
   }
 }
 
+table, th, td {
+  border: 2px solid white;
+  border-collapse:collapse;
+}
+
+th, td {
+  padding: 1rem
+}
+
+th {
+  background: var(--bs-orange);
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
